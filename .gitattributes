@@ -1,0 +1,2 @@
+examples/mzXML/A-1.mzXML filter=lfs diff=lfs merge=lfs -text
+examples/mzXML/A-2.mzXML filter=lfs diff=lfs merge=lfs -text
