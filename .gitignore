@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data and model outputs
+data/
+outputs/
+results/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.xlsx
+*.xls
+*.csv
+*.mzXML
+*.mzML
+*.mzxml
+*.mzml
+
+# Keep the small repository examples trackable.
+!examples/
+!examples/mzXML/
+!examples/mzXML/*.mzML
+!examples/mzXML/*.mzml
+!examples/mzXML/*.mzXML
+!examples/mzXML/*.mzxml
+
+# Generated figures outside the tracked manuscript assets
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+!assets/
+!assets/*.jpg
+!assets/*.png
+
+!metadata/
+!metadata/*.xlsx
+!metadata/*.csv
